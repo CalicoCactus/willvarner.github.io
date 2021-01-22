@@ -1,0 +1,14 @@
+
+.body{
+  margin: 0;
+  position: relative;
+}
+.bottom {
+  position: absolute;
+}
+.body {
+  background: url("desert.gif");
+  background-position: top;
+  background-size: 120vw;
+  background-position-y: bottom;
+}
