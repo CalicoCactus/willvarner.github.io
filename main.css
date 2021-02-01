@@ -13,6 +13,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	background-image: url(desert.gif);
 	object-fit: cover;
 	z-index: -1;
 }
@@ -70,3 +71,61 @@ html,body{
 	margin-right: 20vw;
 	margin-bottom: 6vh;
 }
+/* iPhone Gang: */
+@media only screen and (max-width: 750px)  { 
+	#bg>img{display:none}
+	#bg {
+		background-image: url(mobiledesert.gif);
+	}
+	.bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.title {
+		text-transform: capitalize;
+		font-family: Roboto;
+		font-weight: 600;
+		font-size: 3rem;
+		margin-bottom: 0;
+		letter-spacing: 5px;
+		text-align: center;
+	}
+	.subtitle {
+		text-transform: uppercase;
+		font-size: 1.3rem;
+		font-weight: 400;
+		margin-bottom: .5vh;
+		padding-left: 5vw;
+		
+	}
+	.blurb {
+		padding-right: 6vw;
+		padding-left: 6vw;
+		padding-bottom: 15vh;
+		text-align: center;
+		font-size: 1.3rem;
+		font-weight: 300;
+	}
+	.bottombutton {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding-right: 7.5vw;
+		font-weight: 600;
+		padding-bottom: 3vh;
+		text-decoration: underline;
+	}
+	.youtubebutton {
+		font-size: 2rem;
+		margin-bottom: 6vh;		
+		margin-right: 3vw;
+		color: #fff;
+	
+	}
+	.myworkbutton {
+		font-size: 2rem;
+		margin-right: 45vw;
+		margin-bottom: 6vh;
+	}
+  }
