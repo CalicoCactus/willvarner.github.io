@@ -39,14 +39,33 @@ html,body{
 }
 .subtitle {
 	text-transform: uppercase;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	font-weight: 300;
+	margin-bottom: .5vh;
 	
 }
 .blurb {
 	padding-right: 67vw;
 	padding-bottom: 2vh;
-	font-size: 1.55rem;
+	font-size: 1.53rem;
 	font-weight: 300;
 	
+}
+.bottombutton {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-right: 7.5vw;
+	font-weight: 600;
+	text-decoration: underline;
+}
+.youtubebutton {
+	font-size: 3rem;
+	margin-bottom: 6vh;
+	color: #fff;
+
+}
+.myworkbutton {
+	font-size: 3rem;
+	margin-right: 20vw;
 }
