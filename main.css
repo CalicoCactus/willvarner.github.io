@@ -79,6 +79,9 @@ html,body{
 	.mobile-hide {
 		display: none !important;
 	}
+	.mobile-show {
+		display: block !important;
+	}
 	.bottom {
 		position: absolute;
 		bottom: 0;
