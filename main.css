@@ -7,6 +7,9 @@
 .offwhite {
 	color: #dcdcdc
 }
+.mobile-show {
+	display: none !important;
+}
 #bg {
 	height: 100%;
 	width: 100%;
@@ -46,9 +49,9 @@ html,body{
 	
 }
 .blurb {
-	padding-right: 67vw;
+	padding-right: 60vw;
 	padding-bottom: 2vh;
-	font-size: 1.53rem;
+	font-size: 1.4rem;
 	font-weight: 300;
 	
 }
@@ -73,9 +76,8 @@ html,body{
 }
 /* iPhone Gang: */
 @media only screen and (max-width: 750px)  { 
-	#bg>img{display:none}
-	#bg {
-		background-image: url(mobiledesert.gif);
+	.mobile-hide {
+		display: none !important;
 	}
 	.bottom {
 		position: absolute;
@@ -93,18 +95,19 @@ html,body{
 	}
 	.subtitle {
 		text-transform: uppercase;
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		font-weight: 400;
+		text-align: center;
 		margin-bottom: .5vh;
-		padding-left: 5vw;
+		padding-right: 3vw;
 		
 	}
 	.blurb {
-		padding-right: 6vw;
-		padding-left: 6vw;
+		padding-right: 9vw;
+		padding-left: 9vw;
 		padding-bottom: 15vh;
 		text-align: center;
-		font-size: 1.3rem;
+		font-size: 1rem;
 		font-weight: 300;
 	}
 	.bottombutton {
@@ -117,14 +120,14 @@ html,body{
 		text-decoration: underline;
 	}
 	.youtubebutton {
-		font-size: 2rem;
+		font-size: 1.75rem;
 		margin-bottom: 6vh;		
-		margin-right: 3vw;
+		margin-right: 5vw;
 		color: #fff;
 	
 	}
 	.myworkbutton {
-		font-size: 2rem;
+		font-size: 1.75rem;
 		margin-right: 45vw;
 		margin-bottom: 6vh;
 	}
